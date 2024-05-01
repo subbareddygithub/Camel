@@ -1,0 +1,166 @@
+2023-12-11 15:24:21,855 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2023-12-11 15:24:21,879 INFO com.ibm.Application [main] Starting Application using Java 21 on WIN-E6BMDRK8MK2 with PID 9692 (C:\Users\002WLD744\Documents\workspace-intellij\camunda-demo\target\classes started by SubbareddyAnnapuredd in C:\Users\002WLD744\Documents\workspace-intellij\camunda-demo)
+2023-12-11 15:24:21,880 INFO com.ibm.Application [main] No active profile set, falling back to default profiles: default
+2023-12-11 15:24:22,825 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-11 15:24:22,842 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2023-12-11 15:24:23,474 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8085 (http)
+2023-12-11 15:24:23,484 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8085"]
+2023-12-11 15:24:23,485 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-12-11 15:24:23,485 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.43]
+2023-12-11 15:24:23,608 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/camunda-demo] [main] Initializing Spring embedded WebApplicationContext
+2023-12-11 15:24:23,608 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1683 ms
+2023-12-11 15:24:23,638 INFO org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig [main] Configuring camunda rest api.
+2023-12-11 15:24:23,669 INFO org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig [main] Finished configuring camunda rest api.
+2023-12-11 15:24:23,972 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-11 15:24:24,186 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-11 15:24:24,192 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:camunda-h2-database'
+2023-12-11 15:24:24,412 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-11 15:24:24,505 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.28.Final
+2023-12-11 15:24:24,745 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-11 15:24:24,862 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-12-11 15:24:25,106 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-11 15:24:25,113 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-11 15:24:25,180 INFO org.camunda.bpm.spring.boot [main] STARTER-SB040 Setting up jobExecutor with corePoolSize=3, maxPoolSize:10
+2023-12-11 15:24:25,182 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'camundaTaskExecutor'
+2023-12-11 15:24:25,270 INFO org.camunda.bpm.engine.cfg [main] ENGINE-12003 Plugin 'CompositeProcessEnginePlugin[genericPropertiesConfiguration, camundaProcessEngineConfiguration, camundaDatasourceConfiguration, camundaJpaConfiguration, camundaJobConfiguration, camundaHistoryConfiguration, camundaMetricsConfiguration, camundaAuthorizationConfiguration, camundaDeploymentConfiguration, CreateAdminUserConfiguration[adminUser=AdminUserProperty[id=policy, firstName=Policy, lastName=Policy, email=policy@localhost, password=******]], failedJobConfiguration, eventPublisherPlugin, SpringBootSpinProcessEnginePlugin]' activated on process engine 'default'
+2023-12-11 15:24:26,123 WARN org.camunda.bpm.spring.boot.starter.configuration.impl.DefaultDeploymentConfiguration [main] unable to determine if resource URL [jar:file:C:\Users\002WLD744\.m2\repository\org\camunda\bpm\dmn\camunda-engine-dmn\7.15.0\camunda-engine-dmn-7.15.0.jar!/META-INF/maven/org.camunda.bpm.dmn/] is a deployable resource
+2023-12-11 15:24:26,123 WARN org.camunda.bpm.spring.boot.starter.configuration.impl.DefaultDeploymentConfiguration [main] unable to determine if resource URL [jar:file:C:\Users\002WLD744\.m2\repository\org\camunda\bpm\dmn\camunda-engine-feel-api\7.15.0\camunda-engine-feel-api-7.15.0.jar!/META-INF/maven/org.camunda.bpm.dmn/] is a deployable resource
+2023-12-11 15:24:26,124 WARN org.camunda.bpm.spring.boot.starter.configuration.impl.DefaultDeploymentConfiguration [main] unable to determine if resource URL [jar:file:C:\Users\002WLD744\.m2\repository\org\camunda\bpm\dmn\camunda-engine-feel-juel\7.15.0\camunda-engine-feel-juel-7.15.0.jar!/META-INF/maven/org.camunda.bpm.dmn/] is a deployable resource
+2023-12-11 15:24:26,124 WARN org.camunda.bpm.spring.boot.starter.configuration.impl.DefaultDeploymentConfiguration [main] unable to determine if resource URL [jar:file:C:\Users\002WLD744\.m2\repository\org\camunda\bpm\dmn\camunda-engine-feel-scala\7.15.0\camunda-engine-feel-scala-7.15.0.jar!/META-INF/maven/org.camunda.bpm.dmn/] is a deployable resource
+2023-12-11 15:24:26,124 INFO org.camunda.bpm.spring.boot [main] STARTER-SB021 Auto-Deploying resources: [file [C:\Users\002WLD744\Documents\workspace-intellij\camunda-demo\target\classes\static\forms\risk_assesment_process2.bpmn]]
+2023-12-11 15:24:26,130 INFO org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin [main] EVENTING-001: Initialized Camunda Spring Boot Eventing Engine Plugin.
+2023-12-11 15:24:26,130 INFO org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin [main] EVENTING-003: Task events will be published as Spring Events.
+2023-12-11 15:24:26,130 INFO org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin [main] EVENTING-005: Execution events will be published as Spring Events.
+2023-12-11 15:24:26,133 INFO org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin [main] EVENTING-007: History events will be published as Spring events.
+2023-12-11 15:24:26,141 INFO org.camunda.spin [main] SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]
+2023-12-11 15:24:26,344 INFO org.camunda.spin [main] SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]
+2023-12-11 15:24:26,352 INFO org.camunda.spin [main] SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]
+2023-12-11 15:24:26,353 INFO org.camunda.spin [main] SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]
+2023-12-11 15:24:26,550 INFO org.camunda.bpm.dmn.feel.scala [main] FEEL/SCALA-01001 Spin value mapper detected
+2023-12-11 15:24:26,620 INFO org.camunda.feel.FeelEngine [main] Engine created. [value-mapper: CompositeValueMapper(List(org.camunda.feel.impl.JavaValueMapper@5186c801, org.camunda.spin.plugin.impl.feel.integration.SpinValueMapper@20e41f13)), function-provider: org.camunda.bpm.dmn.feel.impl.scala.function.CustomFunctionTransformer@44ec4a38, clock: SystemClock, configuration: Configuration(false)]
+2023-12-11 15:24:28,957 INFO org.camunda.bpm.connect [main] CNCT-01004 Discovered provider for connector id 'http-connector' and class 'org.camunda.connect.httpclient.impl.HttpConnectorImpl': 'org.camunda.connect.httpclient.impl.HttpConnectorProviderImpl'
+2023-12-11 15:24:28,960 INFO org.camunda.bpm.connect [main] CNCT-01004 Discovered provider for connector id 'soap-http-connector' and class 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorImpl': 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorProviderImpl'
+2023-12-11 15:24:29,124 INFO org.camunda.bpm.engine.persistence [main] ENGINE-03016 Performing database operation 'create' on component 'engine' with resource 'org/camunda/bpm/engine/db/create/activiti.h2.create.engine.sql'
+2023-12-11 15:24:29,157 INFO org.camunda.bpm.engine.persistence [main] ENGINE-03016 Performing database operation 'create' on component 'history' with resource 'org/camunda/bpm/engine/db/create/activiti.h2.create.history.sql'
+2023-12-11 15:24:29,166 INFO org.camunda.bpm.engine.persistence [main] ENGINE-03016 Performing database operation 'create' on component 'identity' with resource 'org/camunda/bpm/engine/db/create/activiti.h2.create.identity.sql'
+2023-12-11 15:24:29,185 INFO org.camunda.bpm.engine.persistence [main] ENGINE-03016 Performing database operation 'create' on component 'case.engine' with resource 'org/camunda/bpm/engine/db/create/activiti.h2.create.case.engine.sql'
+2023-12-11 15:24:29,191 INFO org.camunda.bpm.engine.persistence [main] ENGINE-03016 Performing database operation 'create' on component 'case.history' with resource 'org/camunda/bpm/engine/db/create/activiti.h2.create.case.history.sql'
+2023-12-11 15:24:29,197 INFO org.camunda.bpm.engine.persistence [main] ENGINE-03016 Performing database operation 'create' on component 'decision.engine' with resource 'org/camunda/bpm/engine/db/create/activiti.h2.create.decision.engine.sql'
+2023-12-11 15:24:29,208 INFO org.camunda.bpm.engine.persistence [main] ENGINE-03016 Performing database operation 'create' on component 'decision.history' with resource 'org/camunda/bpm/engine/db/create/activiti.h2.create.decision.history.sql'
+2023-12-11 15:24:29,231 INFO org.camunda.bpm.engine.persistence [main] ENGINE-03067 No history level property found in database
+2023-12-11 15:24:29,231 INFO org.camunda.bpm.engine.persistence [main] ENGINE-03065 Creating historyLevel property in database for level: HistoryLevelFull(name=full, id=3)
+2023-12-11 15:24:29,272 INFO org.camunda.bpm.engine [main] ENGINE-00001 Process Engine default created.
+2023-12-11 15:24:29,370 INFO org.camunda.bpm.spring.boot [main] STARTER-SB010 creating initial Admin User: AdminUserProperty[id=policy, firstName=Policy, lastName=Policy, email=policy@localhost, password=******]
+2023-12-11 15:24:29,589 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-11 15:24:30,634 INFO org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration [main] lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazyProcessEnginesFilter@34c62fdf
+2023-12-11 15:24:30,689 INFO org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration [main] lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazySecurityFilter@54495935
+2023-12-11 15:24:30,853 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8085"]
+2023-12-11 15:24:30,907 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8085 (http) with context path '/camunda-demo'
+2023-12-11 15:24:30,917 INFO com.ibm.Application [main] Started Application in 9.639 seconds (JVM running for 18.859)
+2023-12-11 15:24:30,922 INFO org.camunda.bpm.engine.jobexecutor [main] ENGINE-14014 Starting up the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor].
+2023-12-11 15:24:30,923 INFO org.camunda.bpm.engine.jobexecutor [JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor]] ENGINE-14018 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] starting to acquire jobs
+2023-12-11 15:24:43,764 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/camunda-demo] [http-nio-8085-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-11 15:24:43,765 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8085-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-12-11 15:24:43,768 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8085-exec-2] Completed initialization in 2 ms
+2023-12-11 15:26:40,992 INFO com.ibm.workflow.delegates.RiskAssessment [http-nio-8085-exec-10] Timestamp:1702288600992:workflow-service-info:High:Risk Identifed. 
+2023-12-11 15:26:58,741 INFO com.ibm.workflow.delegates.PremiumGenerated [http-nio-8085-exec-4] Timestamp:1702288618741:workflow-service-info:260000.0:Premium Generated. 
+2023-12-11 16:07:56,693 INFO com.ibm.workflow.delegates.RiskAssessment [http-nio-8085-exec-5] Timestamp:1702291076693:workflow-service-info:Medium:Risk Identifed. 
+2023-12-11 16:08:16,327 INFO com.ibm.workflow.delegates.PremiumGenerated [http-nio-8085-exec-2] Timestamp:1702291096327:workflow-service-info:160000.0:Premium Generated. 
+2023-12-11 16:30:02,200 INFO com.ibm.workflow.delegates.RiskAssessment [http-nio-8085-exec-10] Timestamp:1702292402199:workflow-service-info:High:Risk Identifed. 
+2023-12-11 16:30:20,770 INFO com.ibm.workflow.delegates.PremiumGenerated [http-nio-8085-exec-5] Timestamp:1702292420770:workflow-service-info:260000.0:Premium Generated. 
+2023-12-11 16:59:11,282 ERROR org.camunda.bpm.engine.context [SpringContextShutdownHook] ENGINE-16004 Exception while closing command context: An exception occurred in the persistence layer. Please check the server logs for a detailed message and the entire exception stack trace.
+org.camunda.bpm.engine.ProcessEngineException: An exception occurred in the persistence layer. Please check the server logs for a detailed message and the entire exception stack trace.
+	at org.camunda.bpm.engine.impl.util.ExceptionUtil.wrapPersistenceException(ExceptionUtil.java:263)
+	at org.camunda.bpm.engine.impl.util.ExceptionUtil.doWithExceptionWrapper(ExceptionUtil.java:257)
+	at org.camunda.bpm.engine.impl.db.sql.DbSqlSession.selectById(DbSqlSession.java:120)
+	at org.camunda.bpm.engine.impl.db.entitymanager.DbEntityManager.selectById(DbEntityManager.java:211)
+	at org.camunda.bpm.engine.impl.persistence.entity.PropertyManager.findPropertyById(PropertyManager.java:29)
+	at org.camunda.bpm.engine.impl.cmd.IsTelemetryEnabledCmd.execute(IsTelemetryEnabledCmd.java:35)
+	at org.camunda.bpm.engine.impl.cmd.IsTelemetryEnabledCmd.execute(IsTelemetryEnabledCmd.java:26)
+	at org.camunda.bpm.engine.impl.interceptor.CommandExecutorImpl.execute(CommandExecutorImpl.java:28)
+	at org.camunda.bpm.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:110)
+	at org.camunda.bpm.engine.spring.SpringTransactionInterceptor$1.doInTransaction(SpringTransactionInterceptor.java:72)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at org.camunda.bpm.engine.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:70)
+	at org.camunda.bpm.engine.impl.interceptor.ProcessApplicationContextInterceptor.execute(ProcessApplicationContextInterceptor.java:70)
+	at org.camunda.bpm.engine.impl.interceptor.CommandCounterInterceptor.execute(CommandCounterInterceptor.java:35)
+	at org.camunda.bpm.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:33)
+	at org.camunda.bpm.engine.impl.telemetry.reporter.TelemetrySendingTask.isTelemetryEnabled(TelemetrySendingTask.java:194)
+	at org.camunda.bpm.engine.impl.telemetry.reporter.TelemetrySendingTask.run(TelemetrySendingTask.java:114)
+	at org.camunda.bpm.engine.impl.telemetry.reporter.TelemetryReporter.reportNow(TelemetryReporter.java:137)
+	at org.camunda.bpm.engine.impl.telemetry.reporter.TelemetryReporter.stop(TelemetryReporter.java:130)
+	at org.camunda.bpm.engine.impl.telemetry.reporter.TelemetryReporter.stop(TelemetryReporter.java:117)
+	at org.camunda.bpm.engine.impl.ProcessEngineImpl.close(ProcessEngineImpl.java:177)
+	at org.camunda.bpm.engine.spring.ProcessEngineFactoryBean.destroy(ProcessEngineFactoryBean.java:42)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1152)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1145)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1105)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1074)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:171)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:990)
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACT_GE_PROPERTY" not found; SQL statement:
+select * from ACT_GE_PROPERTY where NAME_ = ? [42102-200]
+### The error may exist in org/camunda/bpm/engine/impl/mapping/entity/Property.xml
+### The error may involve org.camunda.bpm.engine.impl.persistence.entity.PropertyEntity.selectProperty
+### The error occurred while executing a query
+### SQL: select * from ACT_GE_PROPERTY where NAME_ = ?
+### Cause: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACT_GE_PROPERTY" not found; SQL statement:
+select * from ACT_GE_PROPERTY where NAME_ = ? [42102-200]
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:149)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at org.camunda.bpm.engine.impl.db.sql.DbSqlSession.lambda$selectById$2(DbSqlSession.java:120)
+	at org.camunda.bpm.engine.impl.util.ExceptionUtil.doWithExceptionWrapper(ExceptionUtil.java:254)
+	... 30 common frames omitted
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACT_GE_PROPERTY" not found; SQL statement:
+select * from ACT_GE_PROPERTY where NAME_ = ? [42102-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.command.Parser.readTableOrView(Parser.java:7628)
+	at org.h2.command.Parser.readTableFilter(Parser.java:1970)
+	at org.h2.command.Parser.parseSelectFromPart(Parser.java:2827)
+	at org.h2.command.Parser.parseSelect(Parser.java:2959)
+	at org.h2.command.Parser.parseQuerySub(Parser.java:2817)
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:2649)
+	at org.h2.command.Parser.parseQuery(Parser.java:2620)
+	at org.h2.command.Parser.parsePrepared(Parser.java:868)
+	at org.h2.command.Parser.parse(Parser.java:843)
+	at org.h2.command.Parser.parse(Parser.java:815)
+	at org.h2.command.Parser.prepareCommand(Parser.java:738)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:76)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:352)
+	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:337)
+	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.jdbc.datasource.TransactionAwareDataSourceProxy$TransactionAwareInvocationHandler.invoke(TransactionAwareDataSourceProxy.java:238)
+	at jdk.proxy2/jdk.proxy2.$Proxy79.prepareStatement(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.instantiateStatement(PreparedStatementHandler.java:86)
+	at org.apache.ibatis.executor.statement.BaseStatementHandler.prepare(BaseStatementHandler.java:88)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.prepare(RoutingStatementHandler.java:59)
+	at org.apache.ibatis.executor.BatchExecutor.doQuery(BatchExecutor.java:90)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	... 34 common frames omitted
+2023-12-11 16:59:11,293 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [SpringContextShutdownHook] Invocation of destroy method failed on bean with name 'processEngineFactoryBean': org.camunda.bpm.engine.ProcessEngineException: An exception occurred in the persistence layer. Please check the server logs for a detailed message and the entire exception stack trace.
+2023-12-11 16:59:11,299 INFO org.camunda.bpm.engine.jobexecutor [SpringContextShutdownHook] ENGINE-14015 Shutting down the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor]
+2023-12-11 16:59:11,300 INFO org.camunda.bpm.engine.jobexecutor [JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor]] ENGINE-14020 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] stopped job acquisition
+2023-12-11 16:59:11,300 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'camundaTaskExecutor'
+2023-12-11 16:59:11,301 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-11 16:59:11,302 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-12-11 16:59:11,311 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-11 16:59:11,314 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.

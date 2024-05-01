@@ -1,0 +1,63 @@
+{
+  "components": [
+    {
+      "label": "Full Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0ic063u",
+        "columns": null
+      },
+      "id": "Field_0piuy0z",
+      "key": "fullname"
+    },
+    {
+      "label": "Age",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0ao0wxd",
+        "columns": null
+      },
+      "id": "Field_0u8lu0h",
+      "key": "age"
+    },
+    {
+      "label": "Mobile Number",
+      "type": "number",
+      "layout": {
+        "row": "Row_0zrqcmt",
+        "columns": null
+      },
+      "id": "Field_1c90tw3",
+      "key": "mobilenumber"
+    },
+    {
+      "label": "Email",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_131po95",
+        "columns": null
+      },
+      "id": "Field_0uvle1s",
+      "key": "email"
+    },
+    {
+      "label": "Address",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0ek0gcv",
+        "columns": null
+      },
+      "id": "Field_0mtejsg",
+      "key": "address"
+    }
+  ],
+  "type": "default",
+  "id": "policycreation",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.17.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.20.0",
+  "schemaVersion": 12
+}
