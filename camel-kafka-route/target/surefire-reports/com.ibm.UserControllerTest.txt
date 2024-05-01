@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.ibm.UserControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.287 s <<< FAILURE! - in com.ibm.UserControllerTest
+testExecute(com.ibm.UserControllerTest)  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.NoSuchMethodError: 'void org.springframework.boot.SpringApplication.<init>(java.lang.Object[])'
+
